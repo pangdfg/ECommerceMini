@@ -10,7 +10,6 @@ namespace ECommerceMini.ProductService.Data
         { 
             Database.EnsureCreated();
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ProductModel>().HasData(new ProductModel { Id = 1, Name = "Shirt", Quantity = 100, Price = 20 });

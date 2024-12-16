@@ -8,13 +8,12 @@ namespace ECommerceMini.ProductService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController(ProductDbContext dbContext) : ControllerBase
+    public class ProductController(ProductDbContext DbContext) : ControllerBase
     {
         [HttpGet]
-
-        public async Task<List<ProductModel>> GetProducts()
+        public async Task<ActionResult<List<ProductModel>>> GetProducts()
         {
-            return await dbContext.Products.ToListAsync();
+            return await DbContext.Products.ToListAsync();
         }
     }
 }

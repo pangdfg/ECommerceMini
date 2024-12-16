@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ProductDbContext>(options =>
-    options.UseSqlServer("Data Source=.\\sqlexpress; Initial Catalog=EcommerceMiniProduct; Integrated Security=True; TrustServerCertificate=True");
+    options.UseSqlServer("Data Source=.\\sqlexpress; Initial Catalog=EcommerceMiniProduct; Integrated Security=True; TrustServerCertificate=True"));
 
 var app = builder.Build();
 
