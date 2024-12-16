@@ -15,5 +15,16 @@ namespace ECommerceMini.ProductService.Controllers
         {
             return await DbContext.Products.ToListAsync();
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            var product = await DbContext.Products.FindAsync(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return Ok(product);
+        }
     }
 }
