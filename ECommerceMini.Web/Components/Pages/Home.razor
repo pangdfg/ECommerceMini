@@ -1,7 +1,44 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>ECommerce Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<div>
+    <header class="w3-container w3-center w3-padding-32">
+        <h1 class="w3-wide">ECommerce Example</h1>
+        <p class="w3-opacity">
+            <i>Microservices with Kafka: ECommerce Example (.NET 8)</i>
+        </p>
+    </header>
 
-Welcome to your new app.
+    <section>
+        <img class="w3-image" src="https://th.airportels.asia/wp-content/uploads/sites/2/2019/12/E-commerce-online-shopping.jpg"
+             alt="E-Commerce Online Shopping" style="width:100%">
+    </section>
+
+    <section class="w3-container w3-center w3-content" style="max-width:600px; margin-top:20px;">
+        <h2 class="w3-wide">About Us</h2>
+        <p class="w3-justify">
+            A sample e-commerce app using .NET 8. The frontend is built with Blazor Web App,
+            while backend services are developed using Web API. Entity Framework Core with a code-first approach
+            is used for database interactions, with SQL Server as the database. Additionally,
+            Kafka serves as a message broker for asynchronous communication between services.
+        </p>
+    </section>
+</div>
+
+<style>
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .w3-bar-item {
+        padding: 10px 20px;
+    }
+</style>

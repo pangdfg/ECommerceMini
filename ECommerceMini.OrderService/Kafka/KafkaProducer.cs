@@ -1,6 +1,6 @@
 ﻿using Confluent.Kafka;
 
-namespace ECommerce.Services.OrderService.Kafka
+namespace ECommerceMini.Services.OrderService.Kafka
 {
     public interface IKafkaProducer
     {
