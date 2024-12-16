@@ -6,7 +6,7 @@
 
  - A modern and interactive frontend built using Blazor WebAssembly.
  - Provides a seamless and responsive user experience.
- - 
+ 
 2. Web API Backend:
 
  - Microservices-based backend developed with .NET 8 Web API.
@@ -16,7 +16,7 @@
 
  - Uses Entity Framework Core with a code-first approach.
  - SQL Server is utilized as the database for reliable and scalable data storage.
- - 
+
 4. Asynchronous Messaging:
    
  - Two services communicate using Apache Kafka as the message broker.
@@ -26,23 +26,22 @@
 The application is divided into the following components:
 - Frontend:
 
- - Built with Blazor WebAssembly.
- - Communicates with backend APIs for fetching and displaying data.
+  - Built with Blazor WebAssembly.
+  - Communicates with backend APIs for fetching and displaying data.
 
 - Backend:
 
- - Developed using .NET 8 Web API.
- - Contains microservices for handling specific tasks like product management, order processing, and messaging.
+  - Developed using .NET 8 Web API.
+  - Contains microservices for handling specific tasks like product management, order processing, and messaging.
    
 - Database:
 
- - Managed using Entity Framework Core (EF Core).
- - Code-first migrations for schema management.
+  - Managed using Entity Framework Core (EF Core).
+  - Code-first migrations for schema management.
 
 - Messaging:
-
- - Apache Kafka is used for inter-service communication.
- - Ensures high throughput and fault-tolerant message delivery.
+  - Apache Kafka is used for inter-service communication.
+  - Ensures high throughput and fault-tolerant message delivery.
 
 ## Getting Started
 1. Clone the Repository
