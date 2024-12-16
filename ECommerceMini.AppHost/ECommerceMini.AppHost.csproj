@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>ce6fe291-00ca-4f9b-9f51-4e30f1cf306e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceMini.OrderService\ECommerceMini.OrderService.csproj" />
+    <ProjectReference Include="..\ECommerceMini.ProductService\ECommerceMini.ProductService.csproj" />
+    <ProjectReference Include="..\ECommerceMini.Web\ECommerceMini.Web.csproj" />
+  </ItemGroup>
+
+</Project>
