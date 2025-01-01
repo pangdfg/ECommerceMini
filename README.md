@@ -47,7 +47,7 @@ The application is divided into the following components:
 1. Clone the Repository
 
 ``` bash
-git clone https://github.com//pongsapak-suwa/ECommerceMini.git  
+git clone https://github.com/pangdfg/ECommerceMini.git  
 cd ECommerceMini  
 ```
 
